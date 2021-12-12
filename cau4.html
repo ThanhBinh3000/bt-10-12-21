@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>câu 4</title>
+</head>
+<input id="a" type="text" placeholder="nhập a" >
+<p id="c"></p>
+<p id="s"></p>
+<button onclick="tinh()" value="cạnh a">kết quả</button>
+<body>
+<script>
+    function tinh() {
+        let a = parseFloat(document.getElementById('a').value)
+        document.getElementById('s').innerHTML='s='+(a*a)
+        document.getElementById('c').innerHTML='c='+(a*4)
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu4c</title>
+</head>
+<input id="a" type="text" placeholder="nhập a" >
+<input id="b" type="text" placeholder="nhập b" >
+<p id="tong"></p>
+<button onclick="pheptinh()" type="button" value="tổng">kết quả</button>
+<body>
+<script>
+    function pheptinh() {
+        let a = parseFloat(document.getElementById("a").value)
+        let b = parseFloat(document.getElementById("b").value)
+        let sum = 0;
+        for (i=a; i<=b; i++){
+            sum= sum+i;
+
+        }
+        document.getElementById('tong').innerHTML = 'Tổng='+(sum);
+    }
+</script>
+</body>
+</html>

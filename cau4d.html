@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>câu 4d</title>
+</head>
+<input id="a" type="text" placeholder="nhập măm a" >
+<button onclick="theki()" value="cạnh a">thế kỉ</button>
+<p id="ketqua"></p>
+<body>
+<script>
+    function theki() {
+        let a = parseFloat(document.getElementById('a').value)
+        let tk = (a/100);
+        document.getElementById('ketqua').innerHTML='thế kỷ:'+tk
+    }
+</script>
+</body>
+</html>
